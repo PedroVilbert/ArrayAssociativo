@@ -1,5 +1,4 @@
 <?php
-    session_start();
 
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         
@@ -27,7 +26,7 @@
 
     ];
     }
-    
+
     echo "<h2>Dados do Contato</h2>";
 
     print_r($pessoa);
